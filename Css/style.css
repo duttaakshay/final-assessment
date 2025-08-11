@@ -340,7 +340,7 @@ Header Section
   text-decoration: underline;
 }
 
-.footer-logo {
+.footer-logo{
   max-width: 195px;
   max-height: 120px;
   margin-bottom: 40px;
@@ -361,6 +361,7 @@ Header Section
   flex: 1;
   outline: none;
   font-size: 14px;
+  text-align: center;
 }
 
 .newsletter-box button {
@@ -372,7 +373,7 @@ Header Section
   color: white;
 }
 
-.social-links {
+.social-links>ul {
   display: flex;
   justify-content: space-around;
 }
