@@ -83,7 +83,7 @@ Header Section
   right: 0;
   top: 0;
 }
-.navbar-brand {
+.navbar-company{
   padding: 0;
   margin: 0;
   width: 100%;
@@ -113,7 +113,7 @@ Header Section
   left: 52px;
 }
 
-.navbar-brand > img {
+.navbar-company > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -181,56 +181,56 @@ Header Section
 }
 
 /* Potential Section */
-.potential-sec {
+.property-hold {
   padding: 81px 0;
 }
-.potential-rw {
+.property-rw {
   --bs-gutter-x: calc(63px / 2);
 }
 
-.potential-hdr {
+.property-hdr {
   max-width: 513px;
   margin-left: auto;
   margin-bottom: 82px;
 }
 
-.potential-hdr-img {
+.property-hdr-img {
   max-width: 475px;
 }
 
-.potential-hdr-img > img {
+.property-hdr-img > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.potential-scnd-hdr-img {
+.property-scnd-hdr-img {
   max-width: 440px;
   margin-right: auto;
 }
-.potential-scnd-hdr-img > img {
+.property-scnd-hdr-img > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.potential-scnd > div > .btn {
+.property-scnd > div > .btn {
   --bs-btn-padding-x: 41px;
   --bs-btn-padding-y: 15px;
 }
-.potential-scnd > div > p {
+.property-scnd > div > p {
   margin: 72px 0 77px;
 }
 
 
 /* card section to fine cards  */
 
-.letcard-section {
+.find-card-section {
     background-color: #eae4ea;
     padding-block: 75px;
 
 }
 
-.letcard-section .title2 {
+.find-card-section .title2 {
     max-width: 834px;
     margin-bottom: 45px;
 }
@@ -286,8 +286,13 @@ Header Section
     padding: 0;
 }
 
+.card>img{
+  width: 360px;
+  height: 356px;
+}
+
 .card .img {
-    object-fit: fill !important;
+    object-fit:contain!important;
 }
 
 
@@ -296,7 +301,7 @@ Header Section
 /* Basic Reset */
 .footer {
   background-color: #121a24;
-  padding: 40px 20px 20px;
+  padding: 35px 16px 20px;
 }
 
 .container {
@@ -335,12 +340,10 @@ Header Section
   text-decoration: underline;
 }
 
-.logo-col {
-  flex: 1 1 200px;
-}
-
 .footer-logo {
-  max-width: 100px;
+  max-width: 195px;
+  max-height: 120px;
+  margin-bottom: 40px;
 }
 
 .newsletter-box {
@@ -354,7 +357,7 @@ Header Section
 
 .newsletter-box input {
   border: none;
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   flex: 1;
   outline: none;
   font-size: 14px;
@@ -371,16 +374,14 @@ Header Section
 
 .social-links {
   display: flex;
-  gap: 10px;
+  justify-content: space-around;
 }
 
 .social-links a {
   background: white;
-  color: black;
   padding: 6px 8px;
   border-radius: 50%;
   text-decoration: none;
-  font-size: 14px;
 }
 
 .footer-bottom {
@@ -444,34 +445,34 @@ Header Section
     padding-top: 48px;
   }
   /* Potential Section */
-  .potential-sec {
+  .property-hold {
     padding: 40px 0;
   }
-  .potential-prmry {
+  .property-prmry {
     margin-bottom: calc(63px / 2);
   }
-  .potential-hdr {
+  .property-hdr {
     margin: 0 auto 40px;
     text-align: center;
   }
-  .potential-hdr-img {
+  .property-hdr-img {
     margin: 0 auto;
   }
-  .potential-scnd {
+  .property-scnd {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
   }
-  .potential-scnd > div {
+  .property-scnd > div {
     margin-bottom: 30px;
   }
-  .potential-scnd > p {
+  .property-scnd > p {
     margin: 15px 0;
   }
-  .potential-scnd-hdr-img {
+  .property-scnd-hdr-img {
     margin: 0 auto;
   }
-  .potential-scnd > div > p {
+  .property-scnd > div > p {
     margin: 25px 0;
   }
 }
